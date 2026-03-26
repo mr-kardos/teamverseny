@@ -1,4 +1,4 @@
-# Vadászat Játék - Hunting Game Tracker
+# Teamverseny - Hunting Game Tracker
 
 Egy teljes funkcionalitású, mobil-első webhely egy többnapos vadászjáték eredményeinek nyomon követésére.
 
