@@ -31,7 +31,7 @@ export function PublicView() {
     loadGameState();
     
     // Auto-refresh every 10 seconds
-    const interval = setInterval(loadGameState, 10000);
+    const interval = setInterval(loadGameState, 300000);
     return () => clearInterval(interval);
   }, []);
 
