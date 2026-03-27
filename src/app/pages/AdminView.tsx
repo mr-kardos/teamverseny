@@ -230,9 +230,7 @@ export function AdminView() {
               Vissza a főoldalra
             </Button>
           </form>
-          <p className="text-stone-400 text-sm mt-4 text-center">
-            Alapértelmezett jelszó: <code className="bg-stone-700 px-2 py-1 rounded">admin123</code>
-          </p>
+          
         </Card>
       </div>
     );
