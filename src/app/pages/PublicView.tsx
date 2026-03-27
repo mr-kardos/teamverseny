@@ -31,8 +31,8 @@ export function PublicView() {
     loadGameState();
     
     // Auto-refresh every 10 seconds
-    const interval = setInterval(loadGameState, 300000);
-    return () => clearInterval(interval);
+    // const interval = setInterval(loadGameState, 300000);
+    // return () => clearInterval(interval);
   }, []);
 
   const getCharactersByStatus = (status: string) => {
