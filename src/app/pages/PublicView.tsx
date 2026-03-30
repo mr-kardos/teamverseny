@@ -78,7 +78,7 @@ export function PublicView() {
               <h1 className="text-2xl md:text-3xl font-bold text-stone-100 mb-1">
                 Teamverseny
               </h1>
-              <p className="text-stone-400 text-sm">Élő eredmények követése</p>
+              <p className="text-stone-400 text-sm">Eredmények követése</p>
             </div>
             <div className="flex items-center gap-2">
               <Button
@@ -120,7 +120,7 @@ export function PublicView() {
               <div className="mb-8">
                 <div className="bg-amber-900/20 border border-amber-600/30 rounded-xl p-4 md:p-6">
                   <h2 className="text-xl md:text-2xl font-bold text-amber-400 mb-4">
-                    Mai célpontok ({targetableCharacters.length})
+                    Még heti játékban ({targetableCharacters.length})
                   </h2>
                   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-4">
                     {targetableCharacters.map((character: Character) => (
